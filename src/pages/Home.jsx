@@ -54,7 +54,30 @@ const Home = () => {
          </Container>
       </section>
       {/* ============================================================== */}
-
+      <section>
+         <Container>
+            <Row>
+               <Col lg='3'>
+                  <h5 className="services__subtitle">What we serve</h5>
+                  <h2 className="services__title">We offer our best services</h2>
+               </Col>
+               
+            </Row>
+         </Container>
+      </section>
+      <section>
+         <Container>
+            <Row>
+               <Col lg='12'>
+                  <Subtitle subtitle={'Gallery'} />
+                  <h2 className="gallery__title">Visit our customers tour gallery</h2>
+               </Col>
+               <Col lg='12'>
+                  
+               </Col>
+            </Row>
+         </Container>
+      </section>
      
    </>
 }
